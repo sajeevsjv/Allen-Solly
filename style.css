@@ -504,12 +504,12 @@ li {
 }
 .section7-container{
   width: 100%;
-  background-color: aqua;
+  background-color: #0e3051;
 }
 .section7{
   display: grid;
   grid-template-columns: repeat(6,23vw);
-  background-color: aqua;
+  background-color: #0e3051;
   overflow: scroll;
   padding: 30px;
 }
@@ -530,23 +530,24 @@ li {
 .a-sec7-1{
   color: yellow;
   font-size: 28px;
-  font-weight: 500;
+  font-weight: 700;
+  margin-bottom: 35px;
 }
 .a-sec7-2{
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 60px;
 }
 .a-sec7-2 a{
   text-decoration: none;
   font-size: 14px;
   color: white;
+  font-weight: 700;
 
 }
 .a-sec7-2 a:hover{
-  text-decoration: 1px solid yellow;
-  font-size: 14px;
+  border-bottom: 1px solid yellow;
 
 }
 .section71-line{
