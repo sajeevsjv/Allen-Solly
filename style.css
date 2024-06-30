@@ -420,6 +420,14 @@ li {
   height: 90vh;
   margin: 10px 45px 10px 45px;
 }
+.section6-right{
+  height: 80vh;
+  width: 30vw;
+}
+.section6-right img{
+  height: 100%;
+  width: 100%;
+}
 .section6-left img{
   width: 100%;
   height: 100%;
@@ -504,12 +512,13 @@ li {
 }
 .section7-container{
   width: 100%;
-  background-color: aqua;
+  height: 100vh;
+  background-color: #0e3051;
 }
 .section7{
   display: grid;
   grid-template-columns: repeat(6,23vw);
-  background-color: aqua;
+  background-color: #0e3051;
   overflow: scroll;
   padding: 30px;
 }
@@ -525,27 +534,29 @@ li {
   align-items: center;
   justify-content: center;
   font-family: "inter",sans-serif;
-  padding: 30px;
+  padding: 30px  0px 0px 0px;
 }
 .a-sec7-1{
   color: yellow;
   font-size: 28px;
-  font-weight: 500;
+  font-weight: 700;
 }
 .a-sec7-2{
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  margin-top: 15px;
+  gap: 50px;
 }
 .a-sec7-2 a{
   text-decoration: none;
   font-size: 14px;
+  font-weight: 500;
   color: white;
 
 }
 .a-sec7-2 a:hover{
-  text-decoration: 1px solid yellow;
+  border-bottom: 1px solid yellow;
   font-size: 14px;
 
 }
@@ -597,8 +608,63 @@ li {
 .radio-txt{
   display: flex;
   gap: 10px;
+  justify-self: center;
   align-items: center;
-  align-items: center;
-  margin-top: 12px;
+  margin-top: 30px;
   
+}
+.section8{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  margin-top: 60px;
+  padding: 20px;
+}
+.section8-left{
+  width: 45%;
+  height: 80vh;
+  border-radius: 10px;
+  display: flex;
+  background-color: #0e3051;
+  flex-direction: column;
+}
+.section8-left img{
+  width: 100%;
+  height: 70%;
+
+}
+.banner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.banner1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 21px;
+  color: white;
+  font-weight: bold;
+}
+.banner2{
+  font-size: 16px;
+  color: white;
+  border-bottom: 1px solid yellow;
+}
+.banner1 img{
+  height: 60px;
+  width: 60px;
+}
+.section8-right{
+  width: 55%;
+  height: 85vh;
+  padding: 0;
+  margin-left: 10px;
+}
+.section8-right-child{
+  height: 40vh;
 }
