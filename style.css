@@ -514,6 +514,7 @@ li {
   width: 100%;
   height: 100vh;
   background-color: #0e3051;
+  background-color: #0e3051;
 }
 .section7{
   display: grid;
@@ -539,24 +540,24 @@ li {
 .a-sec7-1{
   color: yellow;
   font-size: 28px;
-  font-weight: 700;
+  font-weight: 500;
 }
 .a-sec7-2{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 15px;
-  gap: 50px;
+  gap: 10px;
 }
 .a-sec7-2 a{
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
   color: white;
+  font-weight: 700;
 
 }
 .a-sec7-2 a:hover{
-  border-bottom: 1px solid yellow;
+  text-decoration: 1px solid yellow;
   font-size: 14px;
 
 }
@@ -584,7 +585,7 @@ li {
   text-transform: capitalize;
 }
 .section71-txt{
-  padding: 10px;
+  padding:  10px 0px 10px 0px;
 
 }
 .first-color{
