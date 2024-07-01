@@ -73,7 +73,7 @@ option {
 .a-tags {
   text-decoration: none;
   text-align: center;
-  margin-left: 27px;
+  margin-left: 24px;
   margin-right: 5px;
 }
 #as {
@@ -546,18 +546,18 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 50px;
+  margin-top: 15px;
 }
 .a-sec7-2 a{
   text-decoration: none;
   font-size: 14px;
-  font-weight: 500;
   color: white;
   font-weight: 700;
 
 }
 .a-sec7-2 a:hover{
-  text-decoration: 1px solid yellow;
+  border-bottom: 1px solid yellow;
   font-size: 14px;
 
 }
@@ -668,4 +668,5 @@ li {
 }
 .section8-right-child{
   height: 40vh;
+  background-color: white;
 }
