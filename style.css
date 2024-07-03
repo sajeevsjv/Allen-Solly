@@ -712,16 +712,23 @@ li {
   background-image: url("./images/as-image-bg_2x.jpg");
 }
 .section91{
-  height: 40vh;
+  height: 50vh;
   width: 40vw;
-  background-color: #DFAF5A;
+  background-color: yellow;
+  border-radius: 10px;
+  padding: 40px;
 }
 .section91-1{
   display: flex;
+  margin-bottom: 10px;
   justify-content: flex-start;
   align-items: center;
   gap: 5px;
   font-size: 12px;
+}
+.section91-1 img{
+  height: 45px;
+  width: 45px;
 }
 .section91-2{
   display: flex;
@@ -731,9 +738,28 @@ li {
 .section91-2 span{
   font-size: 28px;
   color: #0e3051;
+  line-height: 1.5;
+}
+.section91-2 h4{
+  font-size: 14px;
+  margin-top: 10px;
+  color:black;
+  font-weight: normal;
 }
 .section91-3{
   display: flex;
   width: 100%;
   justify-content: center;
+}
+.section91-3 button{
+  margin-top: 20px;
+  height: 40px;
+  width: 210px;
+  font-size: 16px;
+  color: yellow;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: #0e3051;
+
 }
